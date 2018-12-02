@@ -13,6 +13,7 @@
 #container{
 	margin-left: auto;
     margin-right: auto;
+	overflow: auto;
 	background-color: azure;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	width: 75%;
@@ -33,4 +34,49 @@
 .footerText{
 	margin-left: 10px;
 }
+#header{
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-size: 32px;
+}
+#video{
+	padding-top: 10px;
+	padding-left: 5px;
+    
+}
+#Form{
+	padding-top: 10px;
+	padding-left: 5px;
+    
+}
+#audio{
+	padding-top: 10px;
+	padding-left: 5px;
+}
+#table11, #table12, #table13, #table21, #table22, #table23, #table31, #table32, #table33 {
 
+    border: 1px solid black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
